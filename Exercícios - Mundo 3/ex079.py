@@ -24,4 +24,3 @@ while True:
 numeros.sort()
 print("Os números digitados em ordem crescente foram:")
 print(numeros)
-

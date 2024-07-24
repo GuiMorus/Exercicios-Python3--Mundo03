@@ -27,7 +27,7 @@ for c in range(0, 4):
         # Repetição para inserir o valor no lugar correto
         for n in lista:
             cont += 1   # Contagem para chegar ao final da lista
-            pos = lista.index(n)    # Recuperando index do valor atual
+            pos = lista.index(n)    # Resgatando index do valor atual
 
             # Verificando número inserido e resultados da lista
             if num < n:
