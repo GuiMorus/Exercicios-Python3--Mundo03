@@ -1,0 +1,12 @@
+# Crie um pacote chamado utilidades que tenha dois módulos internos chamados moedas e dados.
+# Transfira todas as funções utilizadas nos desafios 107, 108, 109, 110 para o primeiro pacote e mantenha
+# tudo funcionando
+
+from utilidades import dado
+from utilidades import moedas
+
+# Variavel resgatando o valor
+p = dado.leiaDinheiro("Digite o preço: R$")
+
+# Mostrando tabela de resumo
+moedas.resumo(p, 20, 12)
